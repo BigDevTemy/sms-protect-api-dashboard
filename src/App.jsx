@@ -14,6 +14,7 @@ import './App.css'
 import Dashboard from './component/dashboard'
 import AppLet from './component/dashboard/body'
 import ErrorPage from './component/error'
+import Welcome from './component/Welcome'
 // import Usermanagement from './component/dashboard/usermanagement'
 // import Settings from './component/dashboard/settings'
 
@@ -25,7 +26,7 @@ function App() {
     // <RouterProvider router={router} />
     <Router>
       <Routes>
-        {/* <Route path='/' element={<Dashboard/>} /> */}
+        <Route path='/' element={<Welcome/>} />
         {/* <Route path='/register' element={<SignUp/>} errorElement={<ErrorPage/>} /> */}
         <Route path='/dashboard' element={<Dashboard/>} errorElement={<ErrorPage/>} >
           <Route path='app' element={<AppLet/>} />

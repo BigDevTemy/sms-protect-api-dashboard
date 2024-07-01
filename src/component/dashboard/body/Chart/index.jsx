@@ -79,7 +79,7 @@ const Index = ()=>{
                     <Chart
                         chartType="LineChart"
                         width="100%"
-                        height="400px"
+                        height="300px"
                         data={dataLine}
                         options={options}
                         />
@@ -87,7 +87,7 @@ const Index = ()=>{
                 </div>
                 <div className="w-[50%]">
                     <div className="flex justify-between p-2" style={{backgroundColor:"#F0F3F6"}}>
-                        <div className="text-md font-poppins font-semibold text-black">API Usuage Status</div>
+                        <div className="text-md font-poppins font-semibold text-black">API Usage Status</div>
                         <div className="form-group">
                            <select className="form-control text-sm font-poppins" style={{backgroundColor:"#F0F3F6"}}><option className="text-sm">7days</option></select>
                         </div>
