@@ -1,0 +1,13 @@
+#root {
+
+  margin: 0;
+  padding: 0;
+  width:100%;
+  background-color: #f9f9f9;
+  
+}
+
+
+.ant-steps-item-finish .ant-steps-item-tail::before {
+  background-color: purple; /* Change progress line color here */
+}
