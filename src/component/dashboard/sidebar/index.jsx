@@ -52,9 +52,9 @@ const Index = ({setMobileSideBar})=>{
                 
                 <div className='w-[80%] h-10  pl-0 cursor-pointer'>
                     <Link to="apikey">
-                        <div className={active === "user_management" ? activeClass:InactiveClass}>
+                        <div className={active === "apikey" ? activeClass:InactiveClass}>
                             <div className='h-[100%] w-6 flex items-center'><UserOutlined  className={active === "apikey"?'text-smsgreen':'text-white'}/></div>
-                            <div className={active === "user_management" ? activeClassText:InactiveClassText}>API Keys</div>
+                            <div className={active === "apikey" ? activeClassText:InactiveClassText}>API Keys</div>
                         </div>
                     </Link>
                 </div>
