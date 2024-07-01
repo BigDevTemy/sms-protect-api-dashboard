@@ -15,6 +15,7 @@ import Dashboard from './component/dashboard'
 import AppLet from './component/dashboard/body'
 import ErrorPage from './component/error'
 import Welcome from './component/Welcome'
+import ApiKey from './component/dashboard/apikeys'
 // import Usermanagement from './component/dashboard/usermanagement'
 // import Settings from './component/dashboard/settings'
 
@@ -30,8 +31,8 @@ function App() {
         {/* <Route path='/register' element={<SignUp/>} errorElement={<ErrorPage/>} /> */}
         <Route path='/dashboard' element={<Dashboard/>} errorElement={<ErrorPage/>} >
           <Route path='app' element={<AppLet/>} />
-          {/* <Route path='user_management' element={<Usermanagement/>} />
-          <Route path='settings' element={<Settings/>} /> */}
+          <Route path='apikey' element={<ApiKey/>} />
+          {/* <Route path='settings' element={<Settings/>} /> */}
         </Route>
 
       </Routes>

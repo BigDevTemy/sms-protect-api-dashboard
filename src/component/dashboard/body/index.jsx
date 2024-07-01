@@ -1,5 +1,4 @@
 import { MessageOutlined, SecurityScanOutlined, UserOutlined, UserSwitchOutlined } from '@ant-design/icons'
-import Title from '../titlebar'
 
 import { Table } from 'antd'
 import { useSelector } from 'react-redux'
@@ -33,7 +32,7 @@ const Index = ()=>{
     return (
         <div className="w-full h-screen overflow-scroll">
             {/* {mobilesidebar && <Sidebar/>} */}
-            <div className='w-full h-10 mt-2'><Title/></div>
+           
             <div className='w-full h-full p-2'>
                 <div className='p-4'><h1 className="font-poppins text-2xl font-semibold mt-2">Welcome, Temiloluwa</h1></div>
                    <div id="section1" className='w-full h-[85%] flex flex-col justify-between items-center p-2 mt-4 sm:max-4xl:w-full  sm:max-4xl:h-auto sm:max-4xl:flex sm:max-4xl:flex-row sm:max-4xl:justify-start sm:max-4xl:items-center mt-4 sm:max-4xl:gap-4 sm:max-4xl:flex-wrap'>
