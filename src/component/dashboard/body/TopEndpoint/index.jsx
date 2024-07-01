@@ -22,7 +22,7 @@ const Index = ()=>{
                         
             </div>
             <div className='w-full'>
-                    <div className='w-full mb-2 h-10 bg-red-100 flex flex-row items-center text-sm text-white bg-black p-2'>
+                    <div className='w-full mb-2 h-10 bg-black-100 flex flex-row items-center text-sm text-white bg-black p-2'>
                         <div className='flex-1'>Key name</div>
                         <div className='flex-1'>Api Key</div>
                         <div className='flex-1'>Status</div>
