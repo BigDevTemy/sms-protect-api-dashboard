@@ -16,6 +16,7 @@ import AppLet from './component/dashboard/body'
 import ErrorPage from './component/error'
 import Welcome from './component/Welcome'
 import ApiKey from './component/dashboard/apikeys'
+import Documentation from './component/dashboard/documentation'
 // import Usermanagement from './component/dashboard/usermanagement'
 // import Settings from './component/dashboard/settings'
 
@@ -32,6 +33,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard/>} errorElement={<ErrorPage/>} >
           <Route path='app' element={<AppLet/>} />
           <Route path='apikey' element={<ApiKey/>} />
+          <Route path='documentation' element={<Documentation/>} />
           {/* <Route path='settings' element={<Settings/>} /> */}
         </Route>
 

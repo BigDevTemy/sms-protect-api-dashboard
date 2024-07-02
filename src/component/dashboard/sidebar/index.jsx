@@ -62,10 +62,10 @@ const Index = ({setMobileSideBar})=>{
                
                 
                 <div className='w-[80%] h-10  pl-0 cursor-pointer'>
-                    <Link to="app">
-                        <div className={active === "settings" ? activeClass:InactiveClass}>
-                            <div className='h-[100%] w-6 flex items-center'><BookOutlined  className={active === "settings"?'text-smsgreen':'text-white'}/></div>
-                            <div className={active === "settings" ? activeClassText:InactiveClassText}>Documentation</div>
+                    <Link to="documentation">
+                        <div className={active === "documentation" ? activeClass:InactiveClass}>
+                            <div className='h-[100%] w-6 flex items-center'><BookOutlined  className={active === "documentation"?'text-smsgreen':'text-white'}/></div>
+                            <div className={active === "documentation" ? activeClassText:InactiveClassText}>Documentation</div>
                         </div>
                     </Link>
                     
